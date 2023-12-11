@@ -1,16 +1,25 @@
-# This is a sample Python script.
+from manager import Manager
+persoane = [];
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def creazaPersoana():
+    name = input("Enter your name: ");
+    salary = input("Enter your salary: ");
+    company = input("Enter your company: ");
+    manager = Manager(name, salary, company);
 
+    return manager;
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+8 to toggle the breakpoint.
+if __name__ == "__main__":
+    y = 12
 
+    contor = y / 3;
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('Mihnea')
+    for x in range (int(contor)):
+        manager = creazaPersoana();
+        persoane.append(manager);
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    for x in persoane:
+        x.display_employee();
+
+    print(persoane[0].empCount);
+
