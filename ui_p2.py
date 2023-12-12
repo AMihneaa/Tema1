@@ -62,9 +62,9 @@ def afiseaza_grafic():
         data = pd.read_csv(sourceFile);
         writeCsvLine(data, 10, 12, xLabel, yLabel, title)
 
-        print(f"xLabel 1: {xLabel}")
-        print(f"Input 2: {yLabel}")
-        print(f"Input 3: {title}")
+        print(f"xLabel: {xLabel}")
+        print(f"yLabel: {yLabel}")
+        print(f"Titlu: {title}")
 
         root2.destroy()
 
