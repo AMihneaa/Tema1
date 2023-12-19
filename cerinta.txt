@@ -1,3 +1,13 @@
+
+    - prerequisites
+        * pandas
+        * matplotlib
+        * tkinter
+
+    - cum se ruleaza?
+        In bash, se introduce comanda:
+            python main.py
+
 Tema 1
 
 1. Se considera fisierul employee.py. Atasat. Creați o clasă care va moșteni clasa Employee – clasa Manager.
