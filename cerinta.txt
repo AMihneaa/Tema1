@@ -8,6 +8,7 @@
         In bash, se introduce comanda:
             python main.py
 
+    - https://github.com/AMihneaa/Tema1
 Tema 1
 
 1. Se considera fisierul employee.py. Atasat. Creați o clasă care va moșteni clasa Employee – clasa Manager.
